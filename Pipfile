@@ -17,6 +17,8 @@ pypdf2 = "*"
 python-multipart = "*"
 pandas = "*"
 pipx = "*"
+uvloop = "*"
+httptools = "*"
 
 [dev-packages]
 
