@@ -75,7 +75,7 @@ Also contains a folder with a design doc showing the basic API diagram as design
 
 Next Steps: The biggest chunk of work right now probably lies in figuring out the heuristics for entity extraction from the text.  You’ll see in other portions the issues with getting proper PDFs that contain the information we’re supposed to scrape from other portions which only make this more difficult, as any heuristics that might work on extracting relevant information from the appellate cases may not be sufficient for the IC cases.  
 
-We also ran into a lot of issues with attempting to deploy to beanstalk.  We’ve cleaned out most of the repo that was causing issues with deployment, however beanstalk still didn’t like it and it might be worth trying to deploy to Heroku instead. 
+We also ran into a lot of issues with attempting to deploy to beanstalk.  We’ve cleaned out most of the repo that was causing issues with deployment, however beanstalk still didn’t like it and it might be worth trying to deploy to Heroku instead. Recommended tutorial for deploying to Heroku can be found [here](https://docs.labs.lambdaschool.com/ds-bw/units-3-and-4/plotly-dash).
 
 As I said, this is a challenging project for DS.  Doing stuff we’ve never done with data we never get:).  The entity recognition stuff is very interesting however.  Good luck!
 
