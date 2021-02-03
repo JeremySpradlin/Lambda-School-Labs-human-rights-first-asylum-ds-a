@@ -20,7 +20,6 @@ We built an application for human rights first, a 501(c)3 organization. Our appl
 
 ## Tools
 
- * [Python 3](https://www.python.org/downloads/)
  * [Pytesseract](https://github.com/madmaze/pytesseract)
  * [FastAPI](https://github.com/tiangolo/fastapi)
  * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
