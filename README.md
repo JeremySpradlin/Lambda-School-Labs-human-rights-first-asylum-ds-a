@@ -52,6 +52,8 @@ We built an application for human rights first, a 501(c)3 organization. Our appl
  [Edwina Palmer](https://github.com/edwinapalmer)
 
  [Jeremy Spradlin](https://github.com/JeremySpradlin)
+ 
+ [Mahmoud Fansha](https://github.com/fansha1994)
 
 
  ## License
