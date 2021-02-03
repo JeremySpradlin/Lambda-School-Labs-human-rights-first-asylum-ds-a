@@ -20,7 +20,7 @@ from dotenv import load_dotenv, find_dotenv
 from sqlalchemy import create_engine
 from PyPDF2 import PdfFileReader
 from io import BytesIO
-import app.test
+
 
 """
 This file will contain functions and other operations with regards to reading in PDF files, converting them to 

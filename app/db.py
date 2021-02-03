@@ -2,10 +2,10 @@
 
 import os
 import pandas as pd
-
 from dotenv import load_dotenv
 from fastapi import APIRouter, Depends
 import sqlalchemy
+from sqlalchemy import Column, ForeignKey, Integer, String, Date, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 import psycopg2
 
@@ -66,7 +66,7 @@ class Judge(Base):
     """
     Class for defining a database object for inserting into the database in the table 'Case'
     """
-    __tablename__ = 'case'
+    __tablename__ = 'judge'
 
     id = Column(Integer, primary_key=True)
     name = Column(String(250))
