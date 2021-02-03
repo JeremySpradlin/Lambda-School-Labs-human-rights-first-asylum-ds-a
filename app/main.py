@@ -1,3 +1,7 @@
+"""
+Main.py
+"""
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -5,7 +9,10 @@ import os
 import app.test
 import app.ocr as ocr
 import app.routes as routes
-exit
+
+"""
+Main app file
+"""
 
 app = FastAPI(
     title='HRF Aslyum B API',
