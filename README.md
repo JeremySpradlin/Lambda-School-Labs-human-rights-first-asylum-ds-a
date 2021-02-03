@@ -55,6 +55,30 @@ We built an application for human rights first, a 501(c)3 organization. Our appl
  
  [Mahmoud Fansha](https://github.com/fansha1994)
 
+## Future Work | State of Repo
+
+The DS team A repo is light on functionality at present, as much of our project time was spent troubleshooting issues and cleaning existing code and correcting/adding to documentation.  Hopefully, you guys will have less confusion at the start than we did, and be able to start digging into, and adding to code much faster than we were.  What little is in the app is currently working, and below is the current state of the code repo:
+
+OCR.py - Optical Character Recognition.  This file currently contains the packages and API hook for uploading a PDF, converting it to text, and returning the text wrapped in JSON.
+- TODO: Continue research from the notebooks on entity recognition to create the next part of the pipeline, extracting out the relevant entity information from the text, inserting it into the relevant db object, and sending it to the db
+
+DB.py - Database file.  This file contains the function that returns a database connection that can be used for sending SQL to the database.  It also contains the database class objects for DS.
+
+ROUTES.py - Currently there are only two API hooks here;
+- /test
+Returns all saved entries in the ‘case’ table (currently only 1 test entry)
+
+- /dbtest
+Returns a list of the database table names
+
+Notebooks/ - Contains the working notebooks we have been using to experiment and test with.  Messy, but worth looking through to see what we’ve been working with for entity recognition.
+Also contains a folder with a design doc showing the basic API diagram as designed so far.
+
+Next Steps: The biggest chunk of work right now probably lies in figuring out the heuristics for entity extraction from the text.  You’ll see in other portions the issues with getting proper PDFs that contain the information we’re supposed to scrape from other portions which only make this more difficult, as any heuristics that might work on extracting relevant information from the appellate cases may not be sufficient for the IC cases.  
+
+We also ran into a lot of issues with attempting to deploy to beanstalk.  We’ve cleaned out most of the repo that was causing issues with deployment, however beanstalk still didn’t like it and it might be worth trying to deploy to Heroku instead. 
+
+As I said, this is a challenging project for DS.  Doing stuff we’ve never done with data we never get:).  The entity recognition stuff is very interesting however.  Good luck!
 
  ## License
 
