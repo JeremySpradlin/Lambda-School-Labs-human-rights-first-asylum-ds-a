@@ -2,9 +2,9 @@
 # Asylum Decision Database -- Human Rights First
 An application to assist immigration advocates in winning asylum cases
 
-[Docs:](https://docs.labs.lambdaschool.com/data-science/)
+[Docs](https://docs.labs.lambdaschool.com/data-science/)
 
-[Work Description:](https://spradlinjk.medium.com/using-data-science-to-influence-immigration-policy-efb4fa12c82d)
+[Work Description](https://spradlinjk.medium.com/using-data-science-to-influence-immigration-policy-efb4fa12c82d)
 
 ## Description
 We built an application for human rights first, a 501(c)3 organization. Our application uses optical character recognition to scan input court decisions for such values as the name of the presiding judge, the decision, and the asylum seeker's country of origin, and inserts these values into a database. The hope is that advocates for asylum seekers can use these data to better tailor their arguments before a particular judge and maximize their client's chances of receiving asylum. To use the application offline, follow the steps under Installation.
