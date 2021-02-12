@@ -3,6 +3,7 @@
 An application to assist immigration advocates in winning asylum cases
 
 [Docs:](https://docs.labs.lambdaschool.com/data-science/)
+
 [Work Description:](https://spradlinjk.medium.com/using-data-science-to-influence-immigration-policy-efb4fa12c82d)
 
 ## Description
